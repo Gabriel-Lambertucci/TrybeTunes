@@ -1,0 +1,65 @@
+#profile-edit-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 20%;
+}
+
+#link-div {
+  display: flex;
+  justify-content: center;
+}
+
+#link-div a:hover {
+  background-color: white;
+}
+
+#link-div a button {
+  transition: all 0.5s;
+  width: 80px;
+}
+
+#link-div a button:enabled {
+  background-color: rgb(0, 140, 255);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0.5px 5px rgb(0, 47, 255);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  transition: 0.5s;
+  width: 110px;
+}
+
+#inputs-div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 0;
+}
+
+.labels {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  margin: 25px 0 50px;
+  width: 100%;
+}
+
+input:focus {
+  background-color: rgb(246, 246, 246);
+}
+
+#image-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

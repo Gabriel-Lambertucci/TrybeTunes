@@ -1,0 +1,84 @@
+#page-album {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#div1 {
+  border-radius: 10px;
+  margin-top: 150px;
+  padding-top: 100px;
+  transition: all 0.5s;
+  width: 35%;
+  height: 300px;
+}
+
+#div1 img {
+  width: 60%;
+}
+
+#div1:hover {
+  transition: 0.5s;
+  width: 65%;
+  height: 350px;
+}
+
+#div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 65%;
+}
+
+h2 {
+  color: rgb(51, 180, 51);
+  margin-top: 300px;
+}
+
+#musicCard {
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(6, 61, 6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 0;
+  padding: 10px 0;
+  transition: all 0.5s;
+  width: 80%;
+}
+
+#musicCard:hover {
+  background-color: rgb(43, 151, 43);
+  color: white;
+  transition: 0.3s;
+  width: 90%;
+}
+
+#musicCard h4 {
+  font-size: 18px;
+  text-align: center;
+  width: 25%;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+#coração {
+  height: 25px;
+  width: 50px;
+}
+
+
+#coração-vermelho {
+  height: 25px;
+  width: 50px;
+}
+
+.cards-label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

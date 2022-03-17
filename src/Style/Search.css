@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Lato:wght@300&display=swap') ;
+
+.search-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.artist-input {
+  height: 25px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.artist-button {
+  margin: 0 0 27.2px 10px;
+  transition: 0.5s;
+}
+
+.artist-button:enabled {
+  background-color: rgb(2, 202, 35);
+  border: none;
+  box-shadow: 1px 5px rgb(0, 143, 0);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  height: 27px;
+  width: 85px;
+  border-radius: 3px;
+}
+
+.albums-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.album {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  transition: all 0.5s;
+  width: 20%;
+  height: 300px;
+}
+
+.album img {
+  max-height: 80%;
+  padding-top: 10px;;
+  width: 60%;
+}
+
+.album:hover {
+  background-color: rgb(134, 238, 134);
+  color: white;
+  height: 320px;
+  transition: 0.5s;
+}
+
+.link {
+  border: none;
+  color: black;
+  font-size: 16px;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.link:hover {
+  background-color: rgb(5, 199, 5);
+  transition: 0.2s;
+}
+
+#loading {
+  align-items: center;
+  color: rgb(10, 177, 10);
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  width: 100%;
+}
+
+#results {
+  font-family: verdana;
+  font-size: 27px;
+  height: 20px;
+  margin: 70px auto 60px;
+  padding: 7px 0 0 180px;
+  text-align: start;
+  width: 80%;
+}
+
+#artistName {
+  font-size: 15px;
+  padding: 10px 0;
+}
