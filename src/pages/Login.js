@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { createUser } from '../services/userAPI';
 import '../Style/Login.css';
-
-const tunesImg = require('../TrybeTunes.png');
+import tunesImg from '../fone-de-ouvido.png';
+/* 
+const tunesImg = require('../TrybeTunes.png'); */
 
 class Login extends Component {
   constructor() {
